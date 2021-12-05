@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{231FED5E-A267-44FE-BD5E-E9F69BE88821}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>airline.My.MyApplication</StartupObject>
+    <RootNamespace>airline</RootNamespace>
+    <AssemblyName>airline</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>airline.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>airline.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>988120305.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADMIN LOGIN.Designer.vb">
+      <DependentUpon>ADMIN LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN Page.Designer.vb">
+      <DependentUpon>ADMIN Page.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aircraft.Designer.vb">
+      <DependentUpon>Aircraft.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Aircraft.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Cancle Reservation.Designer.vb">
+      <DependentUpon>Cancle Reservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cancle Reservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COLLECTION.Designer.vb">
+      <DependentUpon>COLLECTION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="COLLECTION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flight.Designer.vb">
+      <DependentUpon>Flight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Flight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="print cancle ticket.Designer.vb">
+      <DependentUpon>print cancle ticket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="print cancle ticket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print ticket.Designer.vb">
+      <DependentUpon>Print ticket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print ticket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Refund.Designer.vb">
+      <DependentUpon>Refund.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Refund.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation.Designer.vb">
+      <DependentUpon>Reservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScheduleFlight.Designer.vb">
+      <DependentUpon>ScheduleFlight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleFlight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search Flight.Designer.vb">
+      <DependentUpon>Search Flight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Search Flight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sector.Designer.vb">
+      <DependentUpon>Sector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signup.Designer.vb">
+      <DependentUpon>signup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="signup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket Status.Designer.vb">
+      <DependentUpon>Ticket Status.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ticket Status.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ADMIN LOGIN.resx">
+      <DependentUpon>ADMIN LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN Page.resx">
+      <DependentUpon>ADMIN Page.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Aircraft.resx">
+      <DependentUpon>Aircraft.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cancle Reservation.resx">
+      <DependentUpon>Cancle Reservation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COLLECTION.resx">
+      <DependentUpon>COLLECTION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flight.resx">
+      <DependentUpon>Flight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="print cancle ticket.resx">
+      <DependentUpon>print cancle ticket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print ticket.resx">
+      <DependentUpon>Print ticket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Refund.resx">
+      <DependentUpon>Refund.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservation.resx">
+      <DependentUpon>Reservation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScheduleFlight.resx">
+      <DependentUpon>ScheduleFlight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search Flight.resx">
+      <DependentUpon>Search Flight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sector.resx">
+      <DependentUpon>Sector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ticket Status.resx">
+      <DependentUpon>Ticket Status.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="988120305.ico" />
+    <None Include="Resources\Aeroplane-HD-Wallpapers-For-PC.jpg" />
+    <None Include="Resources\1280x1024_sydney.jpg" />
+    <None Include="Resources\when-the-road-meet-the-sky %281%29.jpg" />
+    <None Include="Resources\air.jpg" />
+    <None Include="Resources\Presentation1.png" />
+    <None Include="Resources\Presentation1l1.jpg" />
+    <None Include="Resources\Presentation1l.jpg" />
+    <None Include="Resources\images %2864%29.jpg" />
+    <None Include="Resources\LogKey64.jpg" />
+    <None Include="Resources\images %2865%29.jpg" />
+    <None Include="Resources\images %2838%29.jpg" />
+    <None Include="Resources\Vista_icons_04.png" />
+    <None Include="Resources\airlines.gif" />
+    <None Include="Resources\indairline1.jpg" />
+    <None Include="Resources\Presentation1.jpg" />
+    <None Include="Resources\9881203051.png" />
+    <None Include="Resources\988120305.png" />
+    <None Include="Resources\pink-fairy-plain-colour-1.jpg" />
+    <None Include="Resources\indairline.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
